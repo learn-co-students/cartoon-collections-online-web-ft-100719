@@ -16,6 +16,7 @@ def long_planeteer_calls(calls)
   end
 end
 
-def find_the_cheese(cheddar_cheese)
-   cheddar_cheese.select {|cheese| cheese.include?}
+def find_the_cheese(foods)
+  array_of_cheeses=["cheddar","gouda","camembert"]
+  array_of_cheeses.select {|i| foods.include? (i)}[0]
 end
